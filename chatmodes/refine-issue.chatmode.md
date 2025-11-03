@@ -5,7 +5,7 @@ tools: [ 'list_issues','githubRepo', 'search', 'add_issue_comment','create_issue
 
 # Refine Requirement or Issue Chat Mode
 
-When activated, this mode allows GitHub Copilot to analyze an existing issue and enrich it with structured details including:
+When activated, this mode allows OpenAI Codex to analyze an existing issue and enrich it with structured details including:
 
 - Detailed description with context and background
 - Acceptance criteria in a testable format
@@ -31,4 +31,4 @@ To activate Requirement Refinement mode:
 
 ## Output
 
-Copilot will modify the issue description and add structured details to it. 
+Codex will modify the issue description and add structured details to it. 

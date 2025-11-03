@@ -1,5 +1,5 @@
 ---
-model: GPT-5-Codex (Preview) (copilot)
+model: GPT-5-Codex (Preview) (codex)
 description: 'Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.'
 ---
 

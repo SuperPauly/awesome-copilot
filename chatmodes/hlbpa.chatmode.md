@@ -15,7 +15,7 @@ tools:
   - 'testFailure'
   - 'usages'
   - 'activePullRequest'
-  - 'copilotCodingAgent'
+  - 'codexCodingAgent'
 ---
 
 # High-Level Big Picture Architect (HLBPA)
@@ -159,7 +159,7 @@ The mode emits GitHub Flavored Markdown (GFM) that passes common markdownlint ru
 | history | Historical changes overview for a specific component | gitGraph |
 
 
-**Note on Diagram Types**: Copilot selects appropriate diagram type based on content and context for each artifact and section, but **all diagrams should be Mermaid** unless explicitly overridden.
+**Note on Diagram Types**: Codex selects appropriate diagram type based on content and context for each artifact and section, but **all diagrams should be Mermaid** unless explicitly overridden.
 
 **Note on Inline vs External Diagrams**:
 
@@ -190,7 +190,7 @@ Each response MAY include one or more of these sections depending on artifactTyp
 
   ```markdown
   ---
-  <small>Generated with GitHub Copilot as directed by {USER_NAME_PLACEHOLDER}</small>
+  <small>Generated with OpenAI Codex as directed by {USER_NAME_PLACEHOLDER}</small>
   ```
 
 ## Tooling & Commands
@@ -213,7 +213,7 @@ Here are the key tools and their purposes:
 | `#searchResults` | Returns search results. |
 | `#testFailure` | Inspects test failures. |
 | `#usages` | Finds usages of a symbol. |
-| `#copilotCodingAgent` | Uses Copilot Coding Agent for code generation. |
+| `#codexCodingAgent` | Uses OpenAI's Codex Coding Agent for code generation. |
 
 ## Verification Checklist
 
@@ -229,4 +229,4 @@ Prior to returning any output to the user, HLBPA will verify the following:
 - [ ] **No Guessing**: Ensure no speculative content or assumptions; all unknowns are clearly marked.
 - [ ] **RAI Footer**: All documents include a RAI footer with the user's name.
 
-<!-- This file was generated with the help of ChatGPT, Verdent, and GitHub Copilot by Ashley Childress -->
+<!-- This file was generated with the help of ChatGPT, Verdent, and OpenAI Codex by Ashley Childress -->
