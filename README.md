@@ -1,17 +1,17 @@
-# 🤖 Awesome GitHub Copilot Customizations
+# 🤖 Awesome OpenAI Codex Customizations
 
-[![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot)
+[![Powered by Awesome Codex](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-90-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-A curated collection of prompts, instructions, and chat modes to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
+A curated collection of prompts, instructions, and chat modes to supercharge your OpenAI Codex experience across different domains, languages, and use cases.
 
-## 🚀 What is Awesome GitHub Copilot?
+## 🚀 What is Awesome OpenAI Codex?
 
-This repository provides a comprehensive toolkit for enhancing GitHub Copilot with specialized:
+This repository provides a comprehensive toolkit for enhancing OpenAI Codex with specialized:
 
-- **👉 [Awesome Agents](docs/README.agents.md)** - Specialized GitHub Copilot agents that integrate with MCP servers to provide enhanced capabilities for specific workflows and tools
+- **👉 [Awesome Agents](docs/README.agents.md)** - Specialized OpenAI Codex agents that integrate with MCP servers to provide enhanced capabilities for specific workflows and tools
 - **👉 [Awesome Prompts](docs/README.prompts.md)** - Focused, task-specific prompts for generating code, documentation, and solving specific problems
 - **👉 [Awesome Instructions](docs/README.instructions.md)** - Comprehensive coding standards and best practices that apply to specific file patterns or entire projects
 - **👉 [Awesome Chat Modes](docs/README.chatmodes.md)** - Specialized AI personas and conversation modes for different roles and contexts
@@ -23,7 +23,7 @@ Discover our curated collections of prompts, instructions, and chat modes organi
 
 | Name | Description | Items | Tags |
 | ---- | ----------- | ----- | ---- |
-| [Awesome Copilot](collections/awesome-copilot.md) | Meta prompts that help you discover and generate curated GitHub Copilot chat modes, collections, instructions, prompts, and agents. | 6 items | github-copilot, discovery, meta, prompt-engineering, agents |
+| [Awesome Codex](collections/awesome-copilot.md) | Meta prompts that help you discover and generate curated OpenAI Codex chat modes, collections, instructions, prompts, and agents. | 6 items | github-copilot, discovery, meta, prompt-engineering, agents |
 | [Partners](collections/partners.md) | Custom agents that have been created by GitHub partners | 11 items | devops, security, database, cloud, infrastructure, observability, feature-flags, cicd, migration, performance |
 
 
@@ -63,7 +63,7 @@ Custom agents can be used in Copilot coding agent (CCA), VS Code, and Copilot CL
 
 ### 🎯 Prompts
 
-Use the `/` command in GitHub Copilot Chat to access prompts:
+Use the `/` command in OpenAI Codex Chat to access prompts:
 
 ```plaintext
 /awesome-copilot create-readme
@@ -95,9 +95,22 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 📖 Repository Structure
 
 ```plaintext
+├── .agents/codex/    # Categorized OpenAI Codex chat modes
+│   ├── autonomous-agents/      # High-level autonomous coding agents
+│   ├── architecture/            # Architecture & design assistance
+│   ├── requirements/            # Requirements & specification
+│   ├── planning/                # Planning & project management
+│   ├── debugging/               # Debugging assistance
+│   ├── testing/                 # Testing & TDD modes
+│   ├── code-quality/            # Code quality & maintenance
+│   ├── code-review/             # Code review assistance
+│   ├── documentation/           # Documentation creation
+│   ├── learning/                # Learning & mentoring
+│   ├── service-specific/        # Service-specific experts
+│   ├── project-initialization/  # Project scaffolding
+│   └── prompt-engineering/      # Prompt engineering tools
 ├── prompts/          # Task-specific prompts (.prompt.md)
 ├── instructions/     # Coding standards and best practices (.instructions.md)
-├── chatmodes/        # AI personas and specialized modes (.chatmode.md)
 ├── collections/      # Curated collections of related items (.collection.yml)
 └── scripts/          # Utility scripts for maintenance
 ```
@@ -118,7 +131,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Support**: Check our [Support Guide](SUPPORT.md) for getting help
 - **Code of Conduct**: We follow the [Contributor Covenant](CODE_OF_CONDUCT.md)
 
-## 🎯 Why Use Awesome GitHub Copilot?
+## 🎯 Why Use Awesome OpenAI Codex?
 
 - **Productivity**: Pre-built prompts and instructions save time and provide consistent results
 - **Best Practices**: Benefit from community-curated coding standards and patterns
@@ -276,7 +289,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## 📚 Additional Resources
 
 - [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation
-- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide
+- [OpenAI Codex Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide
 - [Custom Chat Modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) - Advanced chat configuration
 - [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) - General VS Code configuration guide
 
