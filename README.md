@@ -95,9 +95,22 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 📖 Repository Structure
 
 ```plaintext
+├── .agents/codex/    # Categorized OpenAI Codex chat modes
+│   ├── autonomous-agents/      # High-level autonomous coding agents
+│   ├── architecture/            # Architecture & design assistance
+│   ├── requirements/            # Requirements & specification
+│   ├── planning/                # Planning & project management
+│   ├── debugging/               # Debugging assistance
+│   ├── testing/                 # Testing & TDD modes
+│   ├── code-quality/            # Code quality & maintenance
+│   ├── code-review/             # Code review assistance
+│   ├── documentation/           # Documentation creation
+│   ├── learning/                # Learning & mentoring
+│   ├── service-specific/        # Service-specific experts
+│   ├── project-initialization/  # Project scaffolding
+│   └── prompt-engineering/      # Prompt engineering tools
 ├── prompts/          # Task-specific prompts (.prompt.md)
 ├── instructions/     # Coding standards and best practices (.instructions.md)
-├── chatmodes/        # AI personas and specialized modes (.chatmode.md)
 ├── collections/      # Curated collections of related items (.collection.yml)
 └── scripts/          # Utility scripts for maintenance
 ```
