@@ -1,6 +1,6 @@
 # 💭 Custom Chat Modes
 
-Custom chat modes define specific behaviors and tools for OpenAI Codex Chat, enabling enhanced context-aware assistance for particular tasks or workflows.
+Custom chat modes define specific behaviors and tools for GitHub Copilot Chat, enabling enhanced context-aware assistance for particular tasks or workflows. These modes are configured for use with OpenAI Codex.
 
 All chat modes are organized by category under `.agents/codex/` for easy discovery and management.
 
@@ -131,3 +131,5 @@ All chat modes are organized by category under `.agents/codex/` for easy discove
 ---
 
 Total: 45 chat modes organized into 13 categories
+
+> **Note**: This count is automatically maintained by the generation script and reflects all `.chatmode.md` files found in the `.agents/codex/` directory structure. When adding or removing chat modes, regenerate this file to update the count and tables.
